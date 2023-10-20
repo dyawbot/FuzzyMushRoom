@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Stream</title>
+    <style>
+        /* Center the image horizontally and vertically */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ url_for('video') }}" width="640" height="480" />
+</body>
+</html>
+
